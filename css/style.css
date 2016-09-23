@@ -98,6 +98,12 @@ div#menu ul li:hover{
 	padding-left: 50px;
 }
 
+div#contenido{
+width: 800px;
+margin-top: 50px;	
+}
+
+
 footer{
 
 	background: #666;
