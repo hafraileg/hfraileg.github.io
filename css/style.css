@@ -103,14 +103,7 @@ div#menu ul li:hover{
 	padding-left: 50px;
 }
 
-section{
-	width: 1000px;
-	background: white;
-	height: 600px;
-	float: left;
-	margin-top: 20px;
-	border-radius: 10px;
-}
+
 aside{
 
 	width: 280px;
