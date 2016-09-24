@@ -21,10 +21,36 @@ margin-left: 10px;
 margin-top: 10px;
 
 }
+
+h3{
+font-family: arial;
+color: white;
+font-size: 10px;
+text-align: center;
+padding-top: 3px;
+
+}
 body{
 	background-image: url(../img/fondo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+header{
+	
+	width: 1026px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background-color: #e8e8e8;
+}
+
+footer{
+
+	width: 1350px;
+	height: 210px;
+	background-color: #060606;
+
 }
 
 #contenidos{
@@ -42,15 +68,6 @@ body{
 	background-image: url(../img/banner.jpg);
 	width:1026px;
 	height:130px;
-}
-
-header{
-	
-	width: 1026px;
-	height: auto;
-	margin: auto;
-	position: relative;
-	background-color: #e8e8e8;
 }
 
 #menu{
@@ -369,20 +386,18 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 	.
 }
 
-#noticias{
+#informacion{
 
 	width: 1026px;
 	height: 320px;
-	background-color: #EEE2EE;
-
-	
+		
 }
 
 #noticia_uno{
 
 	width: 325px;
-	height: 280px;
-	background-color: #A29CA2;
+	height: 260px;
+	background-color: #EEE2EE;
 	margin-right: 20px;
 	margin-top: 20px;
 	display: inline-block;
@@ -391,8 +406,8 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 #noticia_dos{
 
 	width: 325px;
-	height: 280px;
-	background-color: #A29CA2;
+	height: 260px;
+	background-color: #EEE2EE;
 	margin-right: 20px;
 	margin-top: 20px;
 	display: inline-block;
@@ -401,11 +416,35 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 #noticia_tres{
 
 	width: 327px;
-	height: 280px;
+	height: 260px;
 	margin-top: 20px;
-	background-color: #A29CA2;
+	background-color: #EEE2EE;
 	display: inline-block;
 }
 
+#objova{
 
+	width: 1026px;
+	height: 400px;
+	background-color: #fff;
 
+}
+
+#objart{
+
+	width: 996px;
+	height: 380px;
+	background-color: #EEE2EE;
+	border: 1px solid #006680;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+
+#logoscalidad{
+
+	width: auto;
+	height: 150px;
+	background-image: url(../img/logoscalidad.png);
+
+}
