@@ -288,10 +288,7 @@ div {
 
   float: center;
 }
-p {
-  font: 22pt sans-serif;
-  
-}
+
 /* style for each square in the puzzle */
 #juego .puzzleSquare {
   height: 30px;
@@ -375,7 +372,7 @@ h2{
 	font-family: Arial, Helvetica, sans-serif;
 	color: #1C2123;
 	margin-left: 10px;
-	font-size: 15px;
+	font-size: 25px;
 	text-align: center;
 	border-top: #006680;
 }
@@ -383,7 +380,7 @@ h3{
 	font-family: Arial, Helvetica, sans-serif;
 	;
 	color: white;
-	font-size: 11px;
+	font-size: 12px;
 	text-align: center;
 }
 h4 {
@@ -433,7 +430,7 @@ footer{
 }
 p{
 
-	font-size: 15px;
+	font-size: 22px;
 	font-weight: bolder;
 	line-height: 24px;
 	padding: 10px;
