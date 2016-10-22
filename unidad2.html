@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es" class"no-js">
+    <!-- comentario  -->
+    <head>
+ 		<meta charset="UTF-8">
+        <meta content="Grupo Colaborativo" name="author"/>
+        <meta content="Pagina de curso de Disenos de Sitios Web" name="description" />
+        <meta content="EDUCACION, UNAD, INGENIERIA, SISTEMAS, DISENO, OVA, CURSO, WEB" name="keywords" />
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <title>UNIDAD 2</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=arial' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+     </head>
+    <body>	
+        <Div id="contenidos">
+            <header>
+                <div id="apDiv1"><img src="img/banner.jpg" width="1000" height="168">
+                  <div id="apDiv24">Programacion WEB 1-Tecnología en Desarrollo de Software</div>
+              </div>
+            </header>
+        	<p>&nbsp;</p>
+   			<p>&nbsp;</p>
+            <p>&nbsp;</p>
+    		<nav>
+              <ul>
+               <li class="dropdown">
+               <a href="index.html" class="dropbtn">Inicio</a>
+               <div class="dropdown-content">
+               <a href="organigrama.html">Organigrama del curso</a>
+               <a href="act_desarrollar.html">Actividades por desarrollar</a>
+               </div>
+               </li>
+               <li class="dropdown">
+               <a href="lecturas.html" class="dropbtn">Lecturas</a>
+               <div class="dropdown-content">
+               <a href="unidad1.html">Unidad 1</a>
+               <a href="unidad2.html">Unidad 2</a>
+               <a href="unidad3.html">Unidad 3</a>
+               </div>
+               </li>
+               <li class="dropdown">
+               <a href="#" class="dropbtn">Multimedia</a>
+               <div class="dropdown-content">
+               <a href="multimedia.html">Video</a>
+               </div>
+               </li>
+               <li class="dropdown">
+               <a href="actividades.html" class="dropbtn">Actividades</a>
+               <div class="dropdown-content">
+               <a href="sopa.html">Sopa de letras</a>
+               <a href="evalua.html">Evalua tus conocimientos</a>
+               <a href="crucigrama.html">Crucigrama</a>
+               </div>
+               </li>
+               <li class="dropdown">
+               <a href="#" class="dropbtn">Autores</a>
+               <div class="dropdown-content">
+               <a href="hfraileg.html">Henry Andres Fraile Gonzalez</a>
+               <a href="WilsonGutierrez.html">Wilson Andrés Gutiérrez Galeano</a>
+               </div>
+               </li>
+               </ul>
+                <div id="apDiv19">
+                <center>
+                	<div id="cuentavisitas"></div>
+						<script>yu=function(id){return document.getElementById(id);}
+							if(localStorage){
+							if(localStorage['visitas']==undefined){
+							localStorage['visitas']=0;
+							}var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
+							var num=localStorage['visitas'];
+							var mensaje=num + " visitas";
+							 yu('cuentavisitas').innerHTML=mensaje;}
+                        </script>
+                </center></div>
+                <div id="apDiv4"><a id="l1" target="_blank" rel="nofollow" href="https://www.facebook.com/Universidad-Nacional-Abierta-y-a-Distancia-UNAD-285790428108305/"><img title="Facebook"border="0" src="img/facebook_aqu_32.png" alt="Facebook" /></a><a href="https://www.youtube.com/user/universidadunad" target="_blank"><img src="img/youtube.png" alt="YouTube" title="Twitter" border="0" /></a><span class="nsb_container"><a href="https://twitter.com/UniversidadUNAD" target="_blank"><img src=			 "img/twitter_aqu_32.png" class="menu" title="Twitter" border="0" /></a></span></div> 
+              </ul>
+                 <div id="apDiv3">    
+               	   <form method="get" action="http://www.google.es/search">
+                    <input type="hidden" name="ie" value="UTF-8" />
+                    <input type="hidden" name="oe" value="UTF-8" />
+                    <input type="text" id="s" name="q" value="" size="12" />
+                    <font size=-1>
+                    <input type="submit"  id="x" name="btnG" value="Buscar" />
+                    <input type="hidden" name="domains" value="https://estudios.unad.edu.co/ingenieria-de-sistemas" />
+                    <br />
+                    <input type="radio" name="sitesearch" value="" />
+                    <font color="white"> Internet</font>
+                    <input type="radio" name="sitesearch" value="https://estudios.unad.edu.co/ingenieria-de-sistemas" checked="checked" />
+                    <font color="white"> ECBTI </font>
+                   </form>
+                </div>
+             </nav>
+            <div id="apDiv14"><a href="https://campus0a.unad.edu.co/campus0/login/index.php" target="_blank"><img src="img/campus.png" width="116" height="101"></a>									</div>
+
+    <section id="seclecturas">
+
+    <h2  id="tisection">Unidad 2</h2>
+    
+<article id="artcont"> 
+     <h2 id="tiunid">Capitulo 4 PHP básico</h2>
+     <h2 id="tiunid">¿Qué es PHP? </h2>
+     <p>PHP (acrónimo recursivo de PHP: Hypertext Preprocessor) es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML. 
+     </br>
+     </br>
+     Bien, pero ¿qué significa realmente? Un ejemplo nos aclarará las cosas: 
+      </br>
+      Ejemplo #1 Un ejemplo introductorio</p>
+      <img src="img/ejemplo1php.png" width="650px">
+      <p>En lugar de usar muchos comandos para mostrar HTML (como en C o en Perl), las páginas de PHP contienen HTML con código incrustado que hace "algo" (en este caso, mostrar "¡Hola, soy un script de PHP!). El código de PHP está encerrado entre las etiquetas especiales de comienzo y final <?php y ?> que permiten entrar y salir del "modo PHP". </p>
+      
+      <p>Lo que distingue a PHP de algo del lado del cliente como Javascript es que el código es ejecutado en el servidor, generando HTML y enviándolo al cliente. El cliente recibirá el resultado de ejecutar el script, aunque no se sabrá el código subyacente que era. El servidor web puede ser configurado incluso para que procese todos los ficheros HTML con PHP, por lo que no hay manera de que los usuarios puedan saber qué se tiene debajo de la manga. </p>
+      
+      <p>Lo mejor de utilizar PHP es su extrema simplicidad para el principiante, pero a su vez ofrece muchas características avanzadas para los programadores profesionales. No sienta miedo de leer la larga lista de características de PHP. En unas pocas horas podrá empezar a escribir sus primeros scripts. </p>
+
+      <p>Aunque el desarrollo de PHP está centrado en la programación de scripts del lado del servidor, se puede utilizar para muchas otras cosas. Siga leyendo y descubra más en la sección ¿Qué puede hacer PHP?, o vaya directo al tutorial introductorio si solamente está interesado en programación web. </p>
+      <h2 id="tiunid">¿Qué puede hacer PHP?</h2>
+      <p> Cualquier cosa. PHP está enfocado principalmente a la programación de scripts del lado del servidor, por lo que se puede hacer cualquier cosa que pueda hacer otro programa CGI, como recopilar datos de formularios, generar páginas con contenidos dinámicos, o enviar y recibir cookies. Aunque PHP puede hacer mucho más. </p>
+      <p>
+        Existen principalmente tres campos principales donde se usan scripts de PHP. </br></br>
+- Scripts del lado del servidor. Este es el campo más tradicional y el foco principal. Son necesarias tres cosas para que esto funcione. El analizador de PHP (módulo CGI o servidor), un servidor web y un navegador web. Es necesario ejecutar el servidor con una instalación de PHP conectada. Se puede acceder al resultado del programa de PHP con un navegador, viendo la página de PHP a través del servidor. Todo esto se puede ejecutar en su máquina si está experimentado con la programación de PHP. Véase la sección sobre las instrucciones de instalación para más información. </br>
+- Scripts desde la línea de comandos. Se puede crear un script de PHP y ejecutarlo sin necesidad de un servidor o navegador. Solamente es necesario el analizador de PHP para utilizarlo de esta manera. Este tipo de uso es ideal para scripts que se ejecuten con regularidad empleando cron (en *nix o Linux) o el Planificador de tareas (en Windows). Estos scripts también pueden usarse para tareas simples de procesamiento de texto. Véase la sección Uso de PHP en la línea de comandos para más información. </br>
+- Escribir aplicaciones de escritorio. Probablemente PHP no sea el lenguaje más apropiado para crear aplicaciones de escritorio con una interfaz gráfica de usuario, pero si se conoce bien PHP, y se quisiera utilizar algunas características avanzadas de PHP en aplicaciones del lado del cliente, se puede utilizar PHP-GTK para escribir dichos programas. También es posible de esta manera escribir aplicaciones independientes de una plataforma. PHP-GTK es una extensión de PHP, no disponible en la distribución principal. Si está interesado en PHP-GTK, puede visitar su propio »  sitio web.</br> 
+      </p>
+      <p>PHP puede emplearse en todos los sistemas operativos principales, incluyendo Linux, muchas variantes de Unix (incluyendo HP-UX, Solaris y OpenBSD), Microsoft Windows, Mac OS X, RISC OS y probablemente otros más. PHP admite la mayoría de servidores web de hoy en día, incluyendo Apache, IIS, y muchos otros. Esto incluye cualquier servidor web que pueda utilizar el binario de PHP FastCGI, como lighttpd y nginx. PHP funciona tanto como módulo como procesador de CGI.</p> 
+<p>De modo que con PHP, se tiene la libertad de elegir el sistema operativo y el servidor web. Además, se tiene la posibilidad de utilizar programación por procedimientos o programación orientada a objetos (POO), o una mezcla de ambas. </p>
+<p>Con PHP no se está limitado a generar HTML. Entre las capacidades de PHP se incluyen la creación de imágenes, ficheros PDF e incluso películas Flash (usando libswf y Ming) generadas sobre la marcha. También se puede generar fácilmente cualquier tipo de texto, como XHTML y cualquier otro tipo de fichero XML. PHP puede autogenerar estos ficheros y guardarlos en el sistema de ficheros en vez de imprimirlos en pantalla, creando una caché en el lado del servidor para contenido dinámico. </p>
+
+<p>Una de las características más potentes y destacables de PHP es su soporte para un amplio abanico de bases de datos. Escribir una página web con acceso a una base de datos es increíblemente simple utilizando una de las extensiones específicas de bases de datos (p.ej., para mysql), o utilizar una capa de abstracción como PDO, o conectarse a cualquier base de datos que admita el estándar de Conexión Abierta a Bases de Datos por medio de la extensión ODBC. Otras bases de datos podrían utilizar cURL o sockets, como lo hace CouchDB. </p>
+<p>PHP también cuenta con soporte para comunicarse con otros servicios usando protocolos tales como LDAP, IMAP, SNMP, NNTP, POP3, HTTP, COM (en Windows) y muchos otros. También se pueden crear sockets de red puros e interactuar usando cualquier otro protocolo. PHP tiene soporte para el intercambio de datos complejos de WDDX entre virtualmente todos los lenguajes de programación web. Y hablando de interconexión, PHP tiene soporte para la instalación de objetos de Java y emplearlos de forma transparente como objetos de PHP. </p>
+
+<p>PHP tiene útiles características de procesamiento de texto, las cuales incluyen las expresiones regulares compatibles con Perl (PCRE), y muchas extensiones y herramientas para el acceso y análisis de documentos XML. PHP estandariza todas las extensiones XML sobre el fundamento sólido de libxml2, y amplía este conjunto de características añadiendo soporte para SimpleXML, XMLReader y XMLWriter. </p>
+<p>Existen otras extensiones interesantes, las cuales están categorizadas alfabéticamente y por categoría. También hay extensiones adicionales de PECL que podrían estar documentadas o no dentro del manual de PHP, tal como » XDebug. </p>
+
+<h2 id="tiunid">Referencias</h2>
+<p>Página Web Oficial de PHP. Tomado de:  <a href="http://php.net/">http://php.net/</a></p>
+
+
+
+<h2 id="tiunid">Capitilo 5 ASP básico</h2>
+<h2 id="tiunid">Construcción sitios web en ASP.NET </h2>
+
+<p>ASP.NET ofrece tres marcos para la creación de aplicaciones web: páginas Web ASP.NET, Formularios Web Formsy ASP.NET MVC. Los tres marcos son estable y maduro, y puede crear aplicaciones web grandes con alguno de ellos. No importa qué marco que elija, obtendrá todos los beneficios y características de ASP.NET por todas partes.</p>
+<p>Cada marco apunta a un estilo de desarrollo diferentes. Que usted elija depende de una combinación de sus activos de programación (conocimientos, habilidades y experiencia en el desarrollo), el tipo de aplicación que se está creando y se siente a gusto con el enfoque del desarrollo. Los tres marcos contará con el apoyo, actualizan y mejoraron en el futuro versiones de ASP.NET.</br>
+A continuación es un resumen de cada uno de los marcos y algunas ideas de cómo elegir entre ellos. Si usted prefiere una introducción video, ver Hacer sitios web con ASP.NET.
+</p>
+<img src="img/cuadrounid2.png" width="650px">
+<h2 id="tiunid">Páginas Web ASP.NET</h2>
+<p> Páginas Web ASP.NET y la sintaxis de afeitar proporcionan una manera rápida, accesible y ligero para combinar código de servidor con HTML para crear contenido web dinámico. Conectar a bases de datos, agregar video, enlace a sitios de redes sociales e incluyen muchas más características que le ayudan a crean sitios de gran belleza que se ajustan a los últimos estándares web </p>
+
+<h2 id="tiunid"> Formularios Web Forms</h2>
+<p> Con ASP.NET Web Forms, puede crear sitios web dinámicos utilizando un modelo familiar de drag-and-drop, impulsado por el evento. Una superficie de diseño y cientos de controles y componentes le permiten crear rápidamente sitios sofisticados, de gran alcance basada en la interfaz de Usuario con acceso a datos. </p>
+<h2 id="tiunid">MVC</h2>
+<p> ASP.NET MVC le da una manera poderosa, basada en patrones para construir sitios web dinámicos que permite una separación limpia de las preocupaciones y que le da control completo sobre el marcado para el desarrollo ágil y agradable. ASP.NET MVC incluye muchas características que permiten rápido, TDD-ambiente de desarrollo para crear aplicaciones sofisticadas que utilizan los últimos estándares web. </p>
+
+
+<h2 id="tiunid">Referencias</h2>
+<p>Página Web Oficial de ASP. Tomado de: <a href=" http://www.asp.net/"> http://www.asp.net/</a></p>
+
+<h2 id="tiunid"> Capitulo 6 JSP básico</h2>
+<h2 id="tiunid">¿Qué es Java Server Pages? </h2>
+<p>Java Server Pages (JSP) es una tecnología para el desarrollo de páginas Web compatibles con el contenido dinámico que ayuda a los desarrolladores insertar código Java en páginas HTML, haciendo uso de etiquetas especiales JSP, la mayoría de los cuales comienzan con <% y terminan con%>.</p>
+<p>Un componente Java Server Pages es un tipo de servlet de Java diseñada para cumplir la función de una interfaz de usuario para una aplicación web en Java. Los desarrolladores web escriban páginas JSP como archivos de texto que se combinan HTML o código XHTML, XML, los elementos y las acciones embebidas y comandos.</p>
+<p>El uso de JSP, puede obtener información de los usuarios a través de formularios de páginas web, los registros actuales de una base de datos u otra fuente, y crear páginas web de manera dinámica.</p>
+<p>etiquetas JSP se pueden utilizar para una variedad de propósitos, tales como la recuperación de información desde una base de datos o registro de las preferencias del usuario, el acceso a componentes JavaBeans, pasar el control entre las páginas y el intercambio de información entre las solicitudes, páginas etc.</p>
+
+<h2 id="tiunid">¿Por qué utilizar JSP?</h2>
+<p>JavaServer Pages menudo sirven al mismo propósito que los programas implementados mediante el Common Gateway Interface (CGI). Pero JSP ofrecen varias ventajas en comparación con el CGI.</p>
+<p>- El rendimiento es significativamente mejor porque JSP permite la incrustación de elementos dinámicos en sí misma páginas HTML en lugar de tener unos archivos CGI separados.</br></br>
+
+- JSP siempre se compilan antes de ser procesado por el servidor a diferencia de CGI / Perl que requiere el servidor para cargar un intérprete y el guión de destino cada vez que se solicita la página.</br></br>
+
+- JavaServer Pages se construyen en la parte superior de la API de servlets Java, así como servlets, JSP también tiene acceso a todas las potentes API de Java de la empresa, incluyendo JDBC, JNDI, EJB, JAXP etc.</br></br>
+
+- páginas JSP se pueden utilizar en combinación con servlets que manejan la lógica de negocio, el modelo apoyado por los motores de plantilla servlet Java.</p>
+<p>Por último, JSP es una parte integral de Java EE, una plataforma completa para aplicaciones empresariales. Esto significa que JSP puede desempeñar un papel en las aplicaciones más sencillas hasta las más complejas y exigentes.</p>
+
+<h2 id="tiunid">Ventajas de JSP:</h2>
+
+<p>A continuación se presenta la lista de otras ventajas del uso de JSP respecto a otras tecnologías:</br></br>
+
+<strong id="stronglec">vs. Active Server Pages (ASP):</strong> Las ventajas de JSP son de dos tipos. En primer lugar, la parte dinámica está escrito en Java, Visual lenguaje específico no básico u otro EM, por lo que es más potente y fácil de usar. Segundo, es portable a otros sistemas operativos y servidores Web que no son de Microsoft.</br></br>
+
+<strong id="stronglec">Los servlets vs. Pure:</strong> Es más conveniente escribir (y modificar!) HTML regular que tener un montón de sentencias println que generan el código HTML.</br></br>
+
+<strong id="stronglec">vs inclusión del servidor (SSI):</strong> SSI, realmente está diseñado para inclusiones sencillas, no para los programas "reales" que utilizan los datos del formulario, realice las conexiones de base de datos, y similares.</br></br>
+
+<strong id="stronglec">vs. JavaScript:</strong> JavaScript puede generar HTML dinámicamente en el cliente, pero difícilmente puede interactuar con el servidor web para realizar tareas complejas, como acceso a bases de datos y procesamiento de imágenes, etc.</br></br>
+
+<strong id="stronglec">vs HTML estático:</strong> HTML regular, por supuesto, no pueden contener información dinámica.</p>
+
+
+
+<h2 id="tiunid">Referencias</h2>
+<p>Página Web Tutorialspoint de JSP. Tomado de: <a href="http://www.tutorialspoint.com/jsp/ "> http://www.tutorialspoint.com/jsp/ </a></p>
+
+
+     </article>
+
+
+
+      			
+    </section>
+
+    <aside id="aslecturas">
+
+    	<h2 id="tiaside">Contenidos</h2>
+
+    	   <nav id="navlecturas">
+    	  <a href="unidad1.html" class="enlacelect"><p class="textmenu">- Unidad 1 </p></a>
+    	  <a href="unidad2.html" class="enlacelect"><p class="textmenu">- Unidad 2 </p></a>
+    	  <a href="unidad3.html" class="enlacelect"><p class="textmenu">- Unidad 3 </p></a>
+    	   </nav>
+    	    
+    	
+
+    </aside>
+    
+		<Footer>
+          <div id="apDiv25">Para uso de la Universidad Nacional Abierta y a Distancia UNAD</div>
+          <div id="apDiv26">Elaborado por: Luis Fernando Jaramillo Hernández, estudiante del programa Ing. de Sistemas </div>
+		  <div id="apDiv13"><img src="img/logoUNADgrisInferior.png" width="225" height="41"></div>
+		  <div id="apDiv27">CEAD Dosquebradas - 2016</div>
+    	</Footer>
+   </body>
+    <script src="js/modernizr.js"></script>   
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>   
+</html>

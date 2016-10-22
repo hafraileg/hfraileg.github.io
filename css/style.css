@@ -514,3 +514,91 @@ p {
 	font-weight: normal;
 	color: #333;
 }
+/*CSS3 de las paginas de lecturas*/
+
+#seclecturas
+{
+	float: right;
+	width: 695px;
+	background: white;
+	height: 720px;
+	margin-top: 7px;
+	border-radius: 10px 10px 10px 10px;
+}
+#aslecturas
+{
+	float: left;
+	width: 290px;
+	background: white;
+	height: 720px;	
+	margin-right: 1px;
+	margin-top: 7px;
+	border-radius: 10px 10px 10px 10px;
+}
+#tisection
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #1C2123;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: center;
+	border-top: #006680;
+}
+
+#tiaside
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #1C2123;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: center;
+	border-top: #006680;
+
+}
+#tiunid
+{
+	color: black;
+	text-align: left;
+}
+#tilec
+{
+	margin-left: 30px;
+	text-align: left;
+	color: #FF6600;
+}
+#navlecturas
+{
+	width: 260px;
+	height:auto;
+	margin-left: 4px;	
+	background: white;
+	border-radius: 0px 0px 0px 0px;
+	color: #006680;
+
+}
+#artcont
+{
+
+           
+            margin-left: 5px;
+            color : black;
+            padding : 4px;
+            width : 670px;
+            height : 640px;
+            overflow : auto;
+}
+#stronglec
+{
+	color: black;
+	font-size: 12px;
+}
+p.textmenu
+{
+font-size: 15px;
+
+}
+a.enlacelect
+{
+	text-decoration: none;
+}
+
